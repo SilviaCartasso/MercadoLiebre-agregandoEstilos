@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Variables*/
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+    --roboto: 'Roboto', sans-serif;
+    --parrafo: 12px;
+    --titulo: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripcion: 16px;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: var(--roboto);
+    
+}
+
+header {
+    background-color: var(--Amarillo);
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+header div.logo {
+    width: 50%;
+    display: block;
+    margin-left: 25px;
+   
+}
+
+#compra {
+    display: block;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    text-decoration: none; 
+    padding:0px;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
